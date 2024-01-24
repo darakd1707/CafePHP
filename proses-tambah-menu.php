@@ -1,7 +1,7 @@
 <?php
 require 'autoload.php';
-use Aws\S3\S3Client;
-use Aws\S3\Exception\S3Exception;
+use S3Client;
+use S3Exception;
 
 $filename = $_FILES['gambar']['name'];
 $filetype = $_FILES['gambar']['type'];
